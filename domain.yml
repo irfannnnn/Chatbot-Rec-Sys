@@ -1,0 +1,182 @@
+actions:
+- utter_greet
+- utter_ask_help
+- action_chat_restart
+- action_slot_reset
+- action_time_greeting
+- action_collect_temp
+- action_try_recommend
+
+forms:
+  - restaurant_form
+
+intents:
+- start
+- greet
+- thanks
+- chitchat
+- affirm
+- deny
+- cancel
+- request_recommend
+- inform_budget
+- inform_seat
+- choose # for button
+- check
+- reset_chat
+
+entities:
+  - time
+  - area
+  - region
+  - resto
+  - cuisines
+  - wifi
+  - budget
+  - seat
+  - pref
+  - deleted
+
+slots:
+  time:
+    type: text
+  area:
+    type: text
+  region:
+    type: text
+  resto:
+    type: text
+  cuisines:
+    type: text
+  wifi:
+    type: text
+  budget:
+    type: unfeaturized
+  seat:
+    type: unfeaturized
+  temp_pref:
+    type: text
+  pref:
+    type: list
+  deleted:
+    type: text
+
+responses:
+  utter_greet:
+  - text: "Halo juga, ada yang bisa dibantu?"
+  - text: "Hai, ada yang bisa dibantu?"
+  - text: "Hello, ada yang bisa dibantu?"
+  - text: "Hallo, ada yang bisa dibantu?"
+  utter_ask_help:
+  - text: "Untuk mulai rekomendasi, bisa coba ketik 'Cari restoran' atau 'Tolong cari tempat makan'"
+  utter_welcome:
+  - text: "Sama-sama!"
+  - text: "Siaaap"
+  utter_ask_confirmation:
+  - text: "Yakin mau dibatalin?"
+  - text: "Bener nih mau batalin?"
+  utter_cancelled:
+  - text: "Yaudah, kalo mau coba cari lagi bilang aja ya"
+  - text: "Okedeh, kalo mau coba cari lagi silahkan ya"
+  utter_dont_know:
+  - text: "Maaf ya kak aku ga paham, mending lanjutin jawab pertanyaan ku aja"
+  utter_ask_area:
+  - text: "Mau cari untuk daerah mana?"
+    button_type: vertical
+    buttons:
+      - title: "Riau"
+        payload: '/choose{"area":"Riau"}'
+      - title: "Lengkong"
+        payload: '/choose{"area":"Lengkong"}'
+      - title: "Braga"
+        payload: '/choose{"area":"Braga"}'
+      - title: "Dago"
+        payload: '/choose{"area":"Dago"}'
+      - title: "Sukajadi"
+        payload: '/choose{"area":"Sukajadi"}'
+      - title: "Andir"
+        payload: '/choose{"area":"Andir"}'
+      - title: "Buahbatu"
+        payload: '/choose{"area":"Buahbatu"}'
+      - title: "Yang penting Bandung"
+        payload: '/choose{"area":"None"}'
+  utter_ask_region:
+  - text: "Mau jenis resto lokal atau luar?"
+    button_type: inline
+    buttons:
+      - title: "Lokal"
+        payload: '/choose{"region":"lokal"}'
+      - title: "Luar Negri"
+        payload: '/choose{"region":"internasional"}'
+      - title: "Apa aja boleh"
+        payload: '/choose{"region":"internasional lokal"}'
+  utter_ask_resto:
+  - text: "Mau jenis tempat makan kayak gimana?"
+    button_type: vertical
+    buttons:
+      - title: "Resto biasa"
+        payload: '/choose{"resto":"resto"}'
+      - title: "Cafe"
+        payload: '/choose{"resto":"cafe"}'
+      - title: "Jajanan / Street Food"
+        payload: '/choose{"resto":"jajanan"}'
+      - title: "Bakery"
+        payload: '/choose{"resto":"bakery"}'
+      - title: "Bar"
+        payload: '/choose{"resto":"bar"}'
+  utter_ask_cuisines:
+  - text: "Mau jenis makanan daerah mana?"
+    button_type: inline
+    buttons:
+      - title: "Asia"
+        payload: '/choose{"cuisines":"asia"}'
+      - title: "Western"
+        payload: '/choose{"cuisines":"western"}'
+      - title: "Terserah"
+        payload: '/choose{"cuisines":"western asia"}'
+  utter_ask_wifi:
+  - text: "Butuh yang ada wifi-nya atau ngga?"
+    button_type: inline
+    buttons:
+      - title: "Iya"
+        payload: '/choose{"wifi":"wifi"}'
+      - title: "Tidak"
+        payload: '/choose{"wifi":""}'
+  utter_ask_budget:
+  - text: "Mau nentuin budget mu? Tulis budget mu jika iya\n(Asumsi sudah termasuk makan+minum)"
+  utter_ask_seat:
+  - text: "Untuk berapa orang ya?"
+  utter_ask_pref:
+  - text: "Ada tambahan lagi?\nMisal : 'sedia bakso', 'masakan sunda', 'tempat nongkrong', atau 'ada kopi dan kue'"
+  utter_ask_problem:
+  - text: "Kira2 dari kriteria dibawah ini, mana yang ga terlalu penting dan masih bisa kamu toleransi? Coba pilih salah satu untuk dihapus terus aku coba cari lagi"
+    button_type: inline
+    buttons:
+      - title: "Daerah pencarian"
+        payload: '/choose{"deleted":"area"}'
+      - title: "Budget"
+        payload: '/choose{"deleted":"budget"}'
+  utter_ask_if_fulfilled:
+  - text: "Apa udah sesuai sama yang kamu mau? Atau mau cari yang lain?"
+  utter_slot_check:
+  - text: "Slot yang terisi:\n
+           - region: {region}\n
+           - tipe resto: {resto}\n
+           - daerah makanan: {cuisines}\n
+           - wifi: {wifi}\n
+           - budget: {budget}\n
+           - tambahan: {pref}"
+  utter_finish:
+  - text: "Sip, sebentar ya, aku coba cariin dulu"
+  - text: "Tunggu ya aku coba cari yang cocok"
+  utter_nice:
+  - text: "Sip deh kalo git"
+  - text: "Sip sip"
+  - text: "Oke siap"
+  utter_oh_no:
+  - text: "Yah aku ga bisa bantu lagi kak, coba ulang dari awal dan lebih spesifik lagi"
+  - text: "Yah maaf ya aku ga tau lagi, mungkin kamu bisa coba ulang dari awal"
+
+session_config:
+  session_expiration_time: 5  # value in minutes
+  carry_over_slots_to_new_session: false

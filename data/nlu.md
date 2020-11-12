@@ -1,0 +1,423 @@
+## intent:greet
+- hey
+- hi
+- hai
+- hy
+- helo
+- henlo
+- halo
+- permisi
+- misi om
+- halo spada
+- heyo apa kabar
+- halo pakabar
+- salam sejahtera
+- selamat [pagi](time)
+- slamat [siang](time)
+- slmt [malam](time)
+- [pagi](time)
+- [siang](time)
+- [sore](time)
+- [malam](time)
+
+## intent:chitchat
+- apa sih artinya hidup
+- kita belajar buat apa
+- buat apa kita makan kalo nanti eek juga
+- olahraga itu baik untuk kesehatan
+- empat sehat lima sempurna
+- yang buat kamu siapa
+- kamu bot atau orang
+- kamu suka makan apa
+- cuaca lagi bagus ya
+- besok hujan atau engga
+- kalo hujan enaknya ngapain
+- coba dong ceritain sesuatu
+- sekolah yang bagus dimana ya
+- aduh lagi sakit nih
+- belajar yang bener biar bisa kerja
+- hidup itu nikamtin aja
+- saya suka tidur tiap hari
+- tidurlah secukupnya kalo bisa seharian
+- capek banget habis kerja seharian
+- enakan sekolah atau kerja ya
+- bacot mulu ah
+- yang bener dong kerjanya
+- keren banget sih kamu
+- mau lu apa sih
+- banyak tanya lu
+- kenapa sih orang lain suka itu
+- berapa harga outfit mu?
+- berapa jauh dari jakarta ke jogja?
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- Proin sagittis ante nec tempus lacinia
+
+## intent:affirm
+- betul
+- betul sekali
+- tentu saja
+- okey
+- okay
+- yoi
+- yep
+- yaps
+- iya benar
+- iya boleh
+- yaudah
+- yakin
+- benar
+- sudah benar
+- sangat benar
+- sudah betul
+- sudah bener
+- udah bener
+- dah benar
+- bener banget
+- boleh banget
+- benar sekali
+- bener
+- ok
+- oke
+- sip
+- sudah cocok
+- udah cocok
+- dah pas
+- cocok banget
+- sip udah
+- sip dah cocok
+- cukup
+- udah cukup
+- sudah cukup
+- selesai
+- udah selesai
+- udah aja
+- udah deh
+
+## intent:deny
+- nggak
+- tidak
+- jangan
+- ga
+- ndak
+- no
+- nope
+- ngga
+- nga
+- ga usah
+- ngga usah
+- gak perlu
+- gak mau
+- lanjut aja deh
+- yaudah lanjut ajah
+- eh lanjut aja
+- eh salah
+- yang lain
+- yg lain
+- cari lagi
+- cari yang lain
+- coba lagi
+- belom sesuai
+- belum cocok
+- ngga cocok
+- tdk sesuai
+- nggak cocok
+- kurang cocok
+- kurang sesuai
+
+## intent:thanks
+- makasih
+- terimakasih
+- terima kasih
+- trimakasih
+- trima kasih
+- arigato
+- arigatou
+- thanks
+- thank you
+- thankyou
+- tenkyu
+
+## intent:cancel
+- batalin dong
+- mau batalin
+- bisa batalin ga
+- ga jadi deh
+- stop aja
+- gajadi ah
+- stop dong
+- udah ah ga jadi
+- udahin aja
+- udahan dulu
+- batal batal
+- batal gajadi
+- cancel
+
+## intent:request_recommend
+- cariin resto
+- cariin restoran
+- cariin restaurant
+- cari resto
+- cari restaurant
+- cri restoran
+- tolong cari restoran
+- bantu cari restoran
+- rekomendasi resto
+- rekomendasi restoran
+- rekomendasiin resto
+- rekomendasiin restoran
+- rekomendasi makanan
+- cari tempat makan
+- mau cari makan
+- bantu cari makanan
+- laper banget nih pengen cari makan
+- laper nih cariin tempat makan dong
+- cariin makanan dong gatau mau makan apa nih
+- cari tempat makan bagus dong laper nih
+- carikan aku tempat makan enak
+- cariin tmpt mkn
+- bingung nih mau makan apa ya
+- lapar sangat nih mo cari makan
+- pengen kulineran
+- pengen kulineran nih
+- mau cari [cafe](pref) ada ga ya
+- mau cari [kafe](pref:cafe) nih
+- mau makan di restoran [shabu](pref)
+- restauran yang menyediakan [sushi](pref)
+- yang sediain [sushi](pref) atau [sabu](pref:shabu)
+- yang sediain [sushi](pref) dan [sabhu](pref:shabu)
+- mau resto yang sedia makanan [jepang](pref)
+- mau cari tempat makan yang sedia [bakmi](pref) [jawa](pref)
+- mau cari tempat makan yang sedia [bakmie](pref:bakmi) [jawa](pref)
+- mau cari tempat makan yang sedia [mie](pref:bakmi) [jawa](pref)
+- mau cari tempat makan yang sedia [mi](pref:bakmi) [jawa](pref)
+- mau cari tempat makan yang sedia [bakmie](pref:bakmi)
+- mau cari tempat makan yang sedia [mie](pref:bakmi)
+- mau cari tempat makan yang sedia [mi](pref:bakmi)
+- sedia [bakmi](pref) [jawa](pref)
+- tolong rekomendasi tempat makan yang ada [bakso](pref) nya
+- tolong rekomendasi tempat makan yang ada [baso](pref:bakso) nya
+- tolong rekomendasi tempat makan yang ada [baksonya](pref:bakso)
+- tolong rekomendasi tempat makan yang ada [basonya](pref:bakso)
+- lagi mau makan [bakso](pref)
+- ada [bakso](pref) nya
+- tersedia [bakso](pref)
+- pengen banget [kopi](pref), [teh](pref), [cemilan](pref), terus tempatnya [nyaman](pref)
+- lagi pengen [thai](pref) food nih
+- lagi pengen makan [burger](pref) nih
+- lagi pengen makan [pasta](pref) nih
+- tolong cari resto masakan [padang](pref)
+- mau banget masakan [sumatra](pref) utara
+- lagi kepingin masakan [sulawesi](pref)
+- tempatnya [bagus](pref:nyaman)
+- tempat [nongkrong](pref:nyaman)
+- tempat [nongkrong](pref:nyaman) yang ada [kopi](pref)nya
+- tempat [nongkrong](pref:nyaman) yang [kopi](pref) nya enak
+- pengen cari tempat buat [nongkrong](pref:nyaman)
+- mau makan di resto [italia](pref)
+- mau makan di restoan [amerika](pref)
+- mau cari makanan [eropa](pref)
+- lagi mau makan [sate](pref)
+- lagi pengen [sate](pref) nih
+- mau cari [soto](pref)
+- eh cariin [somay](pref) dong
+- eh cariin [siomay](pref:somay) dong
+- cariin [cafe](pref) buat [nongkrong](pref) dong
+- cariin [cafe](pref) yang enak buat [nongkrong](pref)
+- eh tolong cariin [jajanan](pref) [thailand](pref:thai) dong, lagi pingni nih
+- eh tolong cariin [street food](pref:jajanan) [thailand](pref:thai) dong, lagi pengen nih
+- lagi pengen banget [batagor](pref)
+- pengen cari [steak](pref) nih- ada [kopi](pref), [teh](pref), [cemilan](pref), [bakmi](pref), dan [bakso](pref)
+- ada [kopi](pref), [teh](pref), [cemilan](pref), [bakmi](pref), atau [bakso](pref)
+- ada [ayam](pref), [bebek](pref), [sate](pref), [bubur](pref)
+- ada [kopi](pref), ada [sushi](pref), ada [cemilan](pref)
+- ada [kopi](pref), ada [sushi](pref), dan ada [cemilan](pref)
+- makanan [italia](pref), ada [pastanya](pref:pasta), ada [kopinya](pref:kopi)
+- makanan [amerika](pref), ada [steak](pref), [burger](pref)
+- makanan [amerika](pref), ada [stek](pref:steak), [fast food](pref)
+- restoran [jepang](pref), yang ada [sushinya](pref:sushi) sama [shabu](pref)
+- lagi nyari [bubur](pref) kalo ngga [bakmi](pref)
+- lagi ngidam [ayam](pref) atau ngga [bebek](pref)
+- lagi ngidam [thai](pref) food
+- ingin cari kedai [takoyaki](pref)
+- pingin cari [bubur](pref) ayam
+- lagi kepingin [bubur](pref) ayam
+- ada [ayam](pref) [geprek](pref)
+- yang ada [ayam](pref) [geprek](pref) nya
+- mau cari [ayam](pref) [penyet](pref:geprek)
+- pengen cari restoran [italia](pref) yang [spaghetti](pref:pasta) nya enak
+- mau [bakmi](pref) ato [ramen](pref)
+- kepengen makanan [lokal](pref)
+- pegen cari makanan [lokal](pref)
+- kepingin makanan [indonesia](pref:lokal)
+- pengen minum [alkohol](pref)
+- pengen [minum-minum](pref:alkohol)
+- ada masakan [jawa](pref) atau [sunda](pref)
+- ada [ayam](pref), ada [seafood](pref), ada [cemilan](pref), [buffet](pref)
+- tempat [ngemil](pref:cemilan) enak
+- lagi pengen [nyemil](pref:cemilan)
+- mau cari restoran [buffet](pref)
+- resto yang sediain [seafood](pref)
+- pengen makan [ikan](pref:seafood)
+- restoran [amerika](pref)
+- restoran [italia](pref)
+- makanan [belanda](pref)
+- makanan [eropa](pref)
+- makanan daerah [jawa](pref)
+- makanan daerah [sunda](pref)
+- mau makan di [warteg](pref)
+- mau makan di [warkop](pref)
+- ada makanan [chinese](pref)
+- menyediakan [bir](pref:alkohol)
+- makanannya mengandung [babi](pref)
+- ada [pecel lele](pref:ayam bebek) enak ga
+- mau cari [cemilan](pref) [lokal](pref) dong
+- mau cari [cemilan](pref) [indonesia](pref:lokal) dong
+- mau cari [cemilan](pref) [nusantara](pref:lokal) dong
+- ada [kopinya](pref:kopi) juga
+- daerah sini ada [korean](pref:korea) [grill](pref) ga
+- daerah sini ada [korean](pref:korea) bbq [grill](pref) ga
+- [amerika](pref)
+- [eropa](pref)
+- [italia](pref)
+- [itali](pref:italia)
+- [belanda](pref)
+- [chinese](pref)
+- [china](pref:chinese)
+- [cina](pref:chinese)
+- [taiwan](pref:chinese)
+- [taiwanese](pref:chinese)
+- [jepang](pref)
+- [japan](pref:jepang)
+- [korea](pref)
+- [korean](pref:korea)
+- [thai](pref)
+- [thailand](pref:thai)
+- [tailand](pref:thai)
+- [tailan](pref:thai)
+- [thailan](pref:thai)
+- [vietnam](pref)
+- [viet](pref:vietnam)
+- [vietnamese](pref:vietnam)
+- [jawa](pref)
+- [sunda](pref)
+- [padang](pref)
+- [ntt](pref)
+- [fast food](pref)
+- [ayam](pref)
+- [bebek](pref)
+- [ayam bebek](pref)
+- [pecel lele](pref:ayam bebek)
+- [geprek](pref)
+- [penyet](pref:geprek)
+- [bubur](pref)
+- [martabak](pref)
+- [bakmi](pref) [jawa](pref)
+- [bakso](pref)
+- [burger](pref)
+- [kopi](pref)
+- [coffee](pref:kopi)
+- [teh](pref)
+- [tea](pref:tea)
+- [sate](pref)
+- [soto](pref)
+- [satay](pref:sate)
+- [steak](pref)
+- [stik](pref:steak)
+- [stiknya](pref:steak)
+- [pizza](pref)
+- [piza](pref:pizza)
+- [pizzanya](pref:pizza)
+- [pasta](pref)
+- [sphagetti](pref:pasta)
+- [spagetti](pref:pasta)
+- [spageti](pref:pasta)
+- [sphageti](pref:pasta)
+- [sphaget](pref:pasta)
+- [ramen](pref)
+- [udon](pref:ramen)
+- [udonnya](pref:ramen)
+- [seafood](pref)
+- [ikan](pref:seafood)
+- [udang](pref:seafood)
+- [kerang](pref:seafood)
+- [sushi](pref)
+- [cemilan](pref)
+- [dessert](pref:cemilan)
+- [desserts](pref:cemilan)
+- [kue](pref:cemilan)
+- [kuenya](pref:cemilan)
+- [buffet](pref)
+- [prasmanan](pref:buffet)
+- [shabu](pref)
+- [alkohol](pref)
+- [bir](pref:alkohol)
+- [anggur](pref:alkohol)
+- [amer](pref:alkohol)
+- [wine](pref:alkohol)
+- [nyaman](pref)
+- [nongkrong](pref:nyaman)
+- [tongkrong](pref:nyaman)
+- [tongkrongan](pref:nyaman)
+
+## intent:inform_budget
+- aku punya [150000](budget)
+- saya ada [200000](budget)
+- budget gua [50000](budget)
+- gw ada budget [125000](budget)
+- cuma ada [70000](budget)
+- cuman ada [75000](budget)
+- cuman punya [110.000](budget)
+- ada [60000](budget)
+- gue ada uang [130000](budget)
+- uang gw [300000](budget)
+- uangku [100.000](budget)
+- duit gw [200.000](budget)
+- duid saya [50.000](budget)
+- maksimal [70.000](budget) rupiah
+- maks [90000](budget)
+- max [90.000](budget)
+- kurang dari [120.000](budget)
+- [80.000](budget)
+- punya [200k](budget)
+- ada sekitar [100rb](budget)
+- kurang lebih [400ribu](budget)
+
+## intent:inform_seat
+- untuk [1](seat) orang
+- [satu](seat:1) orang doang
+- [sendiri](seat:1)
+- [sendiri](seat:1) aja
+- [sendirian](seat:1)
+- buat [2](seat) orang
+- buat [berdua](seat:2)
+- [dua](seat:2) orang
+- [berdua](seat:2)
+- [berdua](seat:2) doang
+- [ber2](seat:2)
+- [3](seat) orng
+- untuk [bertiga](seat:3)
+- [bertiga](seat:3)
+- [ber3](seat:3)
+- [4](seat) orang
+- [berempat](seat:4)
+- [ber4](seat:4)
+- utk [5](seat) orang
+- ada [6](seat) orng
+- ad [7](seat) orang
+- buat ber [8](seat)
+- kurang lebih [10](seat) orang
+- kira-kira ada [20](seat)orang
+- kira2 [30](seat) orang
+- kira2 ada [15](seat) orang
+- [1](seat)
+- [2](seat)
+- [3](seat)
+- [4](seat)
+- [5](seat)
+
+## intent:check
+- check
+- check slot
+
+## regex:budget
+- [1-9]\.?[0-9]{0,3}\.?[0-9]{3}
